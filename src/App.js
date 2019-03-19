@@ -92,6 +92,13 @@ const BooksTest = {
 	currentPage: 139,
         totalPages: 385,
 	author: "Mat Ryer"
+    },
+    5: {
+	title: "Express in Action",
+	progress: 20,
+	currentPage: 85,
+	totalPages: 258,
+	author: "Evan Hahn"
     }
 };
 
