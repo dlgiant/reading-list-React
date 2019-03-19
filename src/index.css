@@ -12,3 +12,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+.col-4 {
+  border: 2px solid black;
+  background-color: black;
+}
+
+.row {
+  background-color: black;
+}
+
+.p-down{
+    margin-top: 10px;
+}
+
+.bg-title {
+  background-color: #6d8fc4;
+  color: whitesmoke;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.bg-progress {
+  background-color: #4e684f;
+  padding: 30px 14px;
+  border-radius: 7px;
+}
+
+.bg-author {
+  background-color: #968969;
+  color: whitesmoke;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.name {
+  margin-top: 8%;
+}
+
+.bg-title:hover,
+.bg-progress:hover,
+.bg-author:hover {
+  border-color: white;
+  color: black;
+}
+
+.bg-title:hover {
+  background-color: #c0d6ed;
+}
+
+.bg-progress:hover{
+    background-color: black;
+    color: white;
+}
+
+.bg-author:hover {
+  background-color: #e5e4c0;
+}
